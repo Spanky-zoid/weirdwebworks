@@ -1,0 +1,104 @@
+header {
+    background-color: #222831;
+    width: 100%;
+    margin: 0 0;
+}
+
+body {
+    color: #EEEEEE;
+    background-color: #31363F;
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    background-color: #222831;
+    width: 100%;
+    margin: 2em 0 0 0;
+    position: fixed;
+    bottom: 0;
+
+}
+
+.project-list {
+    border: 1%;
+    border-color: #76ABAE;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 5em;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding: auto;
+}
+
+li {
+    padding: 0.2em;
+}
+
+h1 {
+    background-color:#222831;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 70px;
+    font-weight: 200;
+    
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutmetext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 40%;
+}
+
+.bitcount-prop-single {
+    font-family: "Bitcount Prop Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+.goldshower:hover {
+    color: gold;
+}
+
+.profilepic {
+    width: 20%;
+    border-radius: 10%;
+
+}
+
+.text-color-gold:hover {
+    color: rgba(255, 255, 255, 0.322);
+    text-shadow: 0em 0em 3em gold,
+    0em 0em 2em gold,
+    1px 1px 5px gold,
+    0px 0px 15px gold,
+    1px 0px 0px yellow,
+   -1px 0px 2px rgba(0, 0, 0, 0.7);
+}
