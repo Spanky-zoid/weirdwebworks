@@ -22,6 +22,7 @@ footer {
     width: 100%;
     padding: 0.5em;
     margin-top: 0.5em;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -61,14 +62,45 @@ h1 {
 }
 
 .emaillink {
-    margin: 0 0 1em 0;
+    margin: 0 0 0 0;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-weight: bold;   
 }
 
-.aboutme {
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: inherit;
+    width: 75%;
+}
+
+.contact_me_tile {
+    background-color: #55607293;
+    margin: 0 0;
+    width: 100%;
+}
+
+.contact_me_para {
+    margin-top: 0;
+}
+
+.portfolio_tile {
+    width: 100%;
+}
+
+.about_me_tile {
+    width: 100%;
+}
+
+.floor {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .aboutmetext {
@@ -82,6 +114,7 @@ h1 {
 .bitcount-prop-single {
     font-family: "Bitcount Prop Single", system-ui;
     font-optical-sizing: auto;
+    font-size: 40px;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -91,6 +124,10 @@ h1 {
         "ELXP" 0;
 
     margin: 0.5em 0 0.5em 0;
+}
+
+.robot_writing {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .goldshower:hover {
@@ -107,7 +144,7 @@ h1 {
     width: auto;
 }
  
-.gitlogo:hover {
+.hover_opacity:hover {
     opacity: 0.6;
 }
 
