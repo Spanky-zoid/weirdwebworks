@@ -55,12 +55,6 @@ h1 {
     
 }
 
-.project-list {
-    border: 1%;
-    border-color: #76ABAE;
-    text-align: center;
-}
-
 .emaillink {
     margin: 0 0 0 0;
     color: #EEEEEE;
@@ -149,9 +143,10 @@ h1 {
 }
 
 .profilepic {
-    width: 20%;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
     border-radius: 10%;
-
 }
 
 .text-color-gold:hover {
